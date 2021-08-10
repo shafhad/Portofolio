@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Portofolio",
+    "slug": "Portofolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.shafhad.Portofolio"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
